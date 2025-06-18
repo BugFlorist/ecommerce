@@ -19,6 +19,9 @@ function About (){
         <p>
             Have questions or feedback? Reach out to us at <a href="mailto:info@example.com">info@example.com</a>.
         </p>
+
+
+
     </div>
     );
 }

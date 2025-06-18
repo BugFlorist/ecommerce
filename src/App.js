@@ -5,6 +5,8 @@ import Ecommerce from "./pages/Ecommerce";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Checkout from "./pages/Checkout";
+import Confirmation from "./pages/Confirmation";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/ecommerce" element={<Ecommerce />} />
           <Route path="/about" element={<About />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/confirmation" element={<Confirmation />} />
         </Routes>
       </Container>
     </Router>
